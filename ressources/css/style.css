@@ -1,0 +1,39 @@
+body {
+  display: block;
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
+  color: seashell;
+  background-color: black;
+  font-size: 22px;
+  text-align: center;
+  }
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+}
+header .flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+ .flex-container img {
+  height: 50px;
+  padding-left: 10px;
+}
+ .flex-container .nav {
+  flex-grow: 1;
+  text-align: right;
+}
+.nav span {
+ padding: 20px 10px;
+ text-decoration: underline;
+ display: inline-block;
+}
+h1 {
+  color: red;
+}
